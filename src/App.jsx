@@ -4,16 +4,16 @@ import React, { useState, useMemo, useRef, useEffect, useCallback } from "react"
 // ║           CLIENT CONFIGURATION — EDIT THIS SECTION           ║
 // ╠══════════════════════════════════════════════════════════════╣
 
-const CLIENT_NAME        = "DJC Joiner";           // Company name in header
-const CLIENT_TAGLINE     = "Consulting · Mentoring · Growth"; // Tagline under name
+const CLIENT_NAME        = "Template";           // Company name in header
+const CLIENT_TAGLINE     = "0"; // Tagline under name
 const CLIENT_LOGO        = "/logo.jpg";             // Logo file in /public folder
 const PAGE_TITLE         = "Production Schedule";   // Browser tab title
 
 // Brand colours
-const BRAND_HEADER_BG    = "#3D2E14";   // Header background
-const BRAND_NAME_COLOR   = "#E8A030";   // Company name text colour
-const BRAND_GOLD         = "#E8A030";   // Accent / tagline colour
-const BRAND_CREAM        = "#FFF8EC";   // Light text colour
+const BRAND_HEADER_BG    = "#FFFFFF";   // Header background
+const BRAND_NAME_COLOR   = "#000000";   // Company name text colour
+const BRAND_GOLD         = "#000000";   // Accent / tagline colour
+const BRAND_CREAM        = "#000000";   // Light text colour
 
 // Supabase credentials (get these from supabase.com → Project Settings → API)
 const SUPABASE_URL = "https://oixsdxhndezbymllkpqk.supabase.co";
