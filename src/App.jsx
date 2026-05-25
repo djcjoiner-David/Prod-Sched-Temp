@@ -6,7 +6,7 @@ import React, { useState, useMemo, useRef, useEffect, useCallback } from "react"
 
 const CLIENT_NAME        = "";           // Company name in header
 const CLIENT_TAGLINE     = ""; // Tagline under name
-const CLIENT_LOGO        = "/logo.jpg";             // Logo file in /public folder
+const CLIENT_LOGO        = "";             // Logo file in /public folder
 const PAGE_TITLE         = "Production Schedule";   // Browser tab title
 
 // Brand colours
