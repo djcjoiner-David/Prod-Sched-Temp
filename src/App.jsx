@@ -13,7 +13,7 @@ const PAGE_TITLE         = "Production Schedule";   // Browser tab title
 const BRAND_HEADER_BG    = "#FFFFFF";   // Header background
 const BRAND_NAME_COLOR   = "#000000";   // Company name text colour
 const BRAND_GOLD         = "#000000";   // Accent / tagline colour
-const BRAND_CREAM        = "#000000";   // Light text colour
+const BRAND_CREAM        = "#E0E0E0";   // Light text colour
 
 // Supabase credentials (get these from supabase.com → Project Settings → API)
 const SUPABASE_URL = "https://oixsdxhndezbymllkpqk.supabase.co";
