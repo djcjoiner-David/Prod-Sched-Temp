@@ -4,7 +4,7 @@ import React, { useState, useMemo, useRef, useEffect, useCallback } from "react"
 // ║           CLIENT CONFIGURATION — EDIT THIS SECTION           ║
 // ╠══════════════════════════════════════════════════════════════╣
 
-const CLIENT_NAME        = "Template";           // Company name in header
+const CLIENT_NAME        = "Client Name";           // Company name in header
 const CLIENT_TAGLINE     = "0"; // Tagline under name
 const CLIENT_LOGO        = "/logo.jpg";             // Logo file in /public folder
 const PAGE_TITLE         = "Production Schedule";   // Browser tab title
@@ -174,7 +174,7 @@ function LoginScreen({onLogin}) {
   return (
     <div style={{minHeight:"100vh",background:"#F8FAFC",display:"flex",flexDirection:"column"}}>
       <div style={{background:BRAND_HEADER_BG,padding:"16px 24px",display:"flex",alignItems:"center",gap:14}}>
-        <img src={CLIENT_LOGO} alt="DJC Joiner Logo" style={{width:52,height:52,borderRadius:"50%",objectFit:"cover"}}/>
+        <img src={CLIENT_LOGO} alt="DJC Joiner Logo" style={{height:44,maxWidth:120,objectFit:"contain"}}/>
         <div>
           <div style={{fontSize:20,fontWeight:700,color:BRAND_NAME_COLOR}}>{CLIENT_NAME}</div>
           <div style={{fontSize:11,color:"#E8A030",letterSpacing:"2px",textTransform:"uppercase"}}>{CLIENT_TAGLINE}</div>
@@ -532,7 +532,7 @@ function MainApp({currentUser,onLogout}) {
   if(loading) return (
     <div style={{fontFamily:"'Segoe UI',system-ui,sans-serif",background:"#F8FAFC",minHeight:"100vh"}}>
       <div style={{background:BRAND_HEADER_BG,padding:"14px 24px",display:"flex",alignItems:"center",gap:14}}>
-        <img src={CLIENT_LOGO} alt="DJC Joiner Logo" style={{width:52,height:52,borderRadius:"50%",objectFit:"cover"}}/>
+        <img src={CLIENT_LOGO} alt="DJC Joiner Logo" style={{height:44,maxWidth:120,objectFit:"contain"}}/>
         <div><div style={{fontSize:20,fontWeight:700,color:BRAND_NAME_COLOR}}>{CLIENT_NAME}</div><div style={{fontSize:11,color:"#E8A030",letterSpacing:"2px",textTransform:"uppercase"}}>{CLIENT_TAGLINE}</div></div>
       </div>
       <Spinner text="Loading schedule..."/>
@@ -546,7 +546,7 @@ function MainApp({currentUser,onLogout}) {
       <div style={{background:BRAND_HEADER_BG,padding:"0 24px"}}>
         <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",paddingTop:14,paddingBottom:14}}>
           <div style={{display:"flex",alignItems:"center",gap:14}}>
-            <img src={CLIENT_LOGO} alt="DJC Joiner Logo" style={{width:52,height:52,borderRadius:"50%",objectFit:"cover"}}/>
+            <img src={CLIENT_LOGO} alt="DJC Joiner Logo" style={{height:44,maxWidth:120,objectFit:"contain"}}/>
             <div>
               <div style={{fontSize:20,fontWeight:700,color:BRAND_NAME_COLOR,lineHeight:1.2}}>{CLIENT_NAME}</div>
               <div style={{fontSize:11,color:"#E8A030",letterSpacing:"2px",textTransform:"uppercase",marginTop:2}}>{CLIENT_TAGLINE}</div>
