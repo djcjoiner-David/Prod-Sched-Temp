@@ -4,8 +4,8 @@ import React, { useState, useMemo, useRef, useEffect, useCallback } from "react"
 // ║           CLIENT CONFIGURATION — EDIT THIS SECTION           ║
 // ╠══════════════════════════════════════════════════════════════╣
 
-const CLIENT_NAME        = "Client Name";           // Company name in header
-const CLIENT_TAGLINE     = "0"; // Tagline under name
+const CLIENT_NAME        = "";           // Company name in header
+const CLIENT_TAGLINE     = ""; // Tagline under name
 const CLIENT_LOGO        = "/logo.jpg";             // Logo file in /public folder
 const PAGE_TITLE         = "Production Schedule";   // Browser tab title
 
